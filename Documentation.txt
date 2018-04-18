@@ -1,0 +1,11 @@
+Task:
+1. Get the name of the city as input.
+2. Use this API(https://www.metaweather.com/api/location/search/?query=houston) and parse (woeid) from the response. 
+3. Use the parsed (woeid) and put it in this API(https://www.metaweather.com/api/location/(woeid)/) to get weather . Like: https://www.metaweather.com/api/location/2424766/ for houston, where woeid is 2424766.
+4. Print only Minimum and Maximum temprature provided under consolidated section.
+
+Helpful Links:
+To analyze the json response you can refer to following sites:
+https://jsonlint.com/
+https://codebeautify.org/jsonvalidator
+You need to copy the json response and paste in the above mentioned sites to analyze them.
